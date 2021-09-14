@@ -13,6 +13,11 @@
 		7C61233426EA917900F94A89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C61233326EA917900F94A89 /* Preview Assets.xcassets */; };
 		7C61233F26EA917900F94A89 /* SwiftUiGitraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61233E26EA917900F94A89 /* SwiftUiGitraTests.swift */; };
 		7C61234A26EA917900F94A89 /* SwiftUiGitraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C61234926EA917900F94A89 /* SwiftUiGitraUITests.swift */; };
+		7C77B49C26F1163D00461692 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C77B49B26F1163D00461692 /* MainTabBarView.swift */; };
+		7C77B49E26F11CF500461692 /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C77B49D26F11CF500461692 /* OnBoardingView.swift */; };
+		7C77B4A026F11FF100461692 /* VoiceOverChordPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C77B49F26F11FF100461692 /* VoiceOverChordPickerView.swift */; };
+		7C77B4A426F127A300461692 /* PickerChordPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C77B4A326F127A300461692 /* PickerChordPickerView.swift */; };
+		7C77B4A626F1288300461692 /* TunerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C77B4A526F1288300461692 /* TunerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +50,11 @@
 		7C61234526EA917900F94A89 /* SwiftUiGitraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUiGitraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C61234926EA917900F94A89 /* SwiftUiGitraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUiGitraUITests.swift; sourceTree = "<group>"; };
 		7C61234B26EA917900F94A89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C77B49B26F1163D00461692 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
+		7C77B49D26F11CF500461692 /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		7C77B49F26F11FF100461692 /* VoiceOverChordPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceOverChordPickerView.swift; sourceTree = "<group>"; };
+		7C77B4A326F127A300461692 /* PickerChordPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerChordPickerView.swift; sourceTree = "<group>"; };
+		7C77B4A526F1288300461692 /* TunerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TunerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +107,11 @@
 			children = (
 				7C61232C26EA917900F94A89 /* SwiftUiGitraApp.swift */,
 				7C61232E26EA917900F94A89 /* ContentView.swift */,
+				7C77B49D26F11CF500461692 /* OnBoardingView.swift */,
+				7C77B49B26F1163D00461692 /* MainTabBarView.swift */,
+				7C77B49F26F11FF100461692 /* VoiceOverChordPickerView.swift */,
+				7C77B4A326F127A300461692 /* PickerChordPickerView.swift */,
+				7C77B4A526F1288300461692 /* TunerView.swift */,
 				7C61233026EA917900F94A89 /* Assets.xcassets */,
 				7C61233526EA917900F94A89 /* Info.plist */,
 				7C61233226EA917900F94A89 /* Preview Content */,
@@ -259,7 +274,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C77B4A626F1288300461692 /* TunerView.swift in Sources */,
 				7C61232F26EA917900F94A89 /* ContentView.swift in Sources */,
+				7C77B4A426F127A300461692 /* PickerChordPickerView.swift in Sources */,
+				7C77B49E26F11CF500461692 /* OnBoardingView.swift in Sources */,
+				7C77B4A026F11FF100461692 /* VoiceOverChordPickerView.swift in Sources */,
+				7C77B49C26F1163D00461692 /* MainTabBarView.swift in Sources */,
 				7C61232D26EA917900F94A89 /* SwiftUiGitraApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
